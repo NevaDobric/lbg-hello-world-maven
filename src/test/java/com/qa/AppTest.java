@@ -2,6 +2,7 @@ package com.qa;
 
 import org.junit.jupiter.api.Test;
 import static com.qa.App.sayHello;
+import static com.qa.App.goodMorning;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -53,7 +54,7 @@ public class AppTest
 
         // Act
         actualResponse = goodMorning();
-        
+
         // Assert
         assertEquals( expectedResponse, actualResponse);
     }
