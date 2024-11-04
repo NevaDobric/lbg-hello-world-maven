@@ -28,4 +28,8 @@ public class App
     public static String sayHelloToSomeone(String name){
         return "Hello " + name ;
     }
+
+    public static String goodMorning(){
+        return "Good Morning World!" ;
+    }
 }
